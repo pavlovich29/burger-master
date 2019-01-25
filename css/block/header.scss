@@ -1,0 +1,32 @@
+$main-color:#e45028;
+.header {
+    padding-top: 10px;
+    &__container {
+        padding: 0 80px;
+    }
+}
+
+.logo {
+    width: 124px;
+    margin-right: 17px;
+    display: inline-block;
+}
+
+.order {
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 4px;
+    background-color: $main-color;
+    border-width: 0;
+    &:hover {
+        background-color: #fff;
+        & .order__link {
+            color: $main-color;
+        }
+    }
+    &__link {
+        font: normal 13px/30px "ubuntumedium", Arial, sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

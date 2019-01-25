@@ -1,0 +1,13 @@
+@import url("layout/reset.css");
+@import url("layout/fonts.css");
+@import url("layout/base.css");
+
+@import url("block/header.css");
+@import url("block/navigation.css");
+@import url("block/main-burger.css");
+@import url("block/we-best.css");
+@import url("block/reviews.css");
+
+.general-bg {
+    background: #1f1f1f url("../../images/main-bg.png") no-repeat center top;
+}

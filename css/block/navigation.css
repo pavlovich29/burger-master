@@ -1,0 +1,32 @@
+.navigation {
+  width: 694px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: inline-block; }
+  .navigation__item {
+    position: relative;
+    display: inline-block; }
+    .navigation__item::before {
+      content: "";
+      position: absolute;
+      top: 13px;
+      left: -2px;
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: #fff; }
+    .navigation__item:first-child {
+      background-image: none; }
+      .navigation__item:first-child::before {
+        content: "";
+        display: none; }
+  .navigation__link {
+    display: inline-block;
+    padding: 0 15px;
+    font: normal 13px/30px "ubuntumedium", Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase; }
+    .navigation__link:hover {
+      color: #e45028; }

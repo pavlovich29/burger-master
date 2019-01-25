@@ -1,0 +1,62 @@
+.main-burger .container {
+  position: relative;
+  padding: 0 80px 38px; }
+
+.main-burger__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 89px; }
+
+.main-burger__image {
+  width: 480px; }
+
+.main-burger__pic {
+  margin-left: 16px; }
+
+.main-burger__text {
+  width: 460px;
+  padding-bottom: 68px; }
+
+.main-burger__elem-first {
+  font: normal 72px/85px "gagalinregular", Arial, sans-serif;
+  color: #f9b43b;
+  padding-bottom: 17px; }
+
+.main-burger__elem-second {
+  font: normal 65px/60px "lifehackmedium", Arial, sans-serif;
+  color: #fff;
+  letter-spacing: -1.625px; }
+
+.arrow-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.side-scroll {
+  position: fixed;
+  top: 93px;
+  right: 4px; }
+  .side-scroll__item {
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 5px; }
+    .side-scroll__item:hover {
+      border-color: #fff; }
+  .side-scroll__link {
+    display: block;
+    height: 6px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50%; }

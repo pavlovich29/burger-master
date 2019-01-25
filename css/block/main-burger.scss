@@ -1,0 +1,59 @@
+.main-burger {
+    & .container {
+        position: relative;
+        padding: 0 80px 38px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 89px;
+    }
+    &__image {
+        width: 480px;
+    }
+    &__pic {
+        margin-left: 16px;
+    }
+    &__text {
+        width: 460px;
+        padding-bottom: 68px;
+    }
+    &__elem-first {
+        font: normal 72px/85px "gagalinregular", Arial, sans-serif;
+        color: #f9b43b;
+        padding-bottom: 17px;
+    }
+    &__elem-second {
+        font: normal 65px/60px "lifehackmedium", Arial, sans-serif;
+        color: #fff;
+        letter-spacing: -1.625px;
+    }
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: center;
+}
+
+.side-scroll {
+    position: fixed;
+    top: 93px;
+    right: 4px;
+    &__item {
+        padding: 8px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        &:hover {
+            border-color: #fff;
+        }
+    }
+    &__link {
+        display: block;
+        height: 6px;
+        width: 6px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,57 @@
+.we-best {
+  background: #fcf6f2 url("../../images/we-best-bg.png") no-repeat center top;
+  /*margin-bottom: 1952px;*/ }
+
+.we-best__container {
+  padding: 131px 80px 135px; }
+
+.we-best__heading {
+  font: normal 72px/64px "gagalinregular", Arial, sans-serif;
+  color: #2f3234;
+  margin-bottom: 50px; }
+
+.we-best__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.we-best__item {
+  width: 300px;
+  margin-left: 20px; }
+
+.we-best__item:first-child {
+  margin-left: 0; }
+
+.we-best__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 29px; }
+
+.we-best__img--second-block {
+  margin-bottom: 34px; }
+
+.we-best__img--third-block {
+  margin-bottom: 42px; }
+
+.we-best__heading,
+.we-best__subheading,
+.we-best__text {
+  text-align: center; }
+
+.we-best__subheading {
+  font: normal 24px/28px "lifehackmedium", Arial, sans-serif;
+  color: #2f3234;
+  margin-bottom: 12px;
+  letter-spacing: -0.6px; }
+
+.we-best__text {
+  font: normal 14px/24px "ubuntulight", Arial, sans-serif;
+  color: #2f3234;
+  padding-bottom: 15px; }
