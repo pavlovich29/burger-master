@@ -69,32 +69,32 @@ input, select, textarea {
 /*layout*/
 @font-face {
   font-family: 'gagalinregular';
-  src: url("../../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
+  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'lifehackmedium';
-  src: url("../../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
+  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntubold';
-  src: url("../../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntulight';
-  src: url("../../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntumedium';
-  src: url("../../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubunturegular';
-  src: url("../../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 * {
@@ -183,7 +183,7 @@ img {
 
 /*blocks*/
 .hero {
-  background: url("../../images/main-bg.png") center center/cover no-repeat; }
+  background: url("../images/main-bg.png") center center/cover no-repeat; }
 
 .hero__container {
   display: flex;
@@ -263,7 +263,7 @@ img {
     color: #e45028; }
 
 .we-best {
-  background: url("../../images/we-best-bg.png") no-repeat center center/cover; }
+  background: url("../images/we-best-bg.png") no-repeat center center/cover; }
 
 .we-best__list {
   display: flex;
