@@ -1,21 +1,18 @@
 /*
-Error: Undefined variable: "$black".
-        on line 26 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\we-best.scss
+Error: Undefined variable: "$yellow".
+        on line 3 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss
 
-21:     margin-bottom: 35px;
-22: }
-23: 
-24: .we-best__title {
-25:     font: normal 24px/28px "lifehackmedium", Arial, sans-serif;
-26:     color: $black;
-27:     letter-spacing: -0.6px;
-28:     margin-bottom: 13px;
-29: }
-30: 
-31: .we-best__content {
+1: .title {
+2:     font: normal 72px/72px "gagalinregular", Arial, sans-serif;
+3:     color: $yellow;
+4:     margin-bottom: 27px;
+5: }
+6: 
+7: .title--we-best {
+8:     color: $black;
 
 Backtrace:
-E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\we-best.scss:26
+E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +59,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 26 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\we-best.scss\A \A 21:     margin-bottom: 35px;\A 22: }\A 23: \A 24: .we-best__title {\A 25:     font: normal 24px/28px \"lifehackmedium\", Arial, sans-serif;\A 26:     color: $black;\A 27:     letter-spacing: -0.6px;\A 28:     margin-bottom: 13px;\A 29: }\A 30: \A 31: .we-best__content {"; }
+  content: "Error: Undefined variable: \"$yellow\".\A         on line 3 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss\A \A 1: .title {\A 2:     font: normal 72px/72px \"gagalinregular\", Arial, sans-serif;\A 3:     color: $yellow;\A 4:     margin-bottom: 27px;\A 5: }\A 6: \A 7: .title--we-best {\A 8:     color: $black;"; }

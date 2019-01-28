@@ -1,13 +1,23 @@
-@import url("layout/reset.css");
-@import url("layout/fonts.css");
-@import url("layout/base.css");
+/*variables*/
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
 
-@import url("block/header.css");
-@import url("block/navigation.css");
-@import url("block/main-burger.css");
-@import url("block/we-best.css");
-@import url("block/reviews.css");
+/*reset default styles*/
+@import "layout/reset.scss";
 
-.general-bg {
-    background: #1f1f1f url("../../images/main-bg.png") no-repeat center top;
-}
+/*layout*/
+@import "layout/fonts.scss";
+@import "layout/layout.scss";
+
+/*elements*/
+@import "elements/button.scss";
+@import "elements/title.scss";
+@import "elements/side-scroll.scss";
+
+/*blocks*/
+@import "block/hero.scss";
+@import "block/header.scss";
+@import "./block/navigation.scss";
+@import "block/we-best.scss";
+@import "block/reviews.scss";

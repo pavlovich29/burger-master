@@ -1,0 +1,42 @@
+.hero {
+    background: url("../../images/main-bg.png") center center / cover no-repeat;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.73;
+}
+
+.hero__content-disc {
+    font: normal 65px/60px "lifehackmedium", Arial, sans-serif;
+    color: #fff;
+    letter-spacing: -1.625px;
+}
+
+.hero__burger-image {
+    margin-left: 19px;
+}
+
+.hero__content-text {
+    margin-left: 12px;
+    margin-top: 80px;
+}
+
+.arrow-down {
+    background: url("../images/arrow-scroll.png") no-repeat center center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 29px;
+    height: 14px;
+}

@@ -1,83 +1,61 @@
-.reviews {
-  background-color: #c3c3c3; }
+/*
+Error: Undefined variable: "$black".
+        on line 53 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss
 
-.reviews__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 25%;
-  flex: 1 1 25%;
-  background-color: #4f4f4f; }
+48:     margin-bottom: 12px;
+49: }
+50: 
+51: .button:hover {
+52:     background-color: #fff;
+53:     color: $black;
+54: }
 
-.rewiews__item {
-  width: 275px;
-  height: 325px; }
-  .rewiews__item:hover .rewiews__item-hover {
-    display: block;
-    position: relative;
-    z-index: 10; }
-    .rewiews__item:hover .rewiews__item-hover::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      width: 275px;
-      height: 325px;
-      background-color: #706868b2;
-      opacity: 0.7;
-      z-index: -10; }
-
-.rewiews__item-hover {
-  display: none;
-  color: #fff;
-  padding: 41px 32px 49px 19px; }
-
-.rewiews__item:nth-child(1) {
-  background: url("../../images/reviews-img1.png") no-repeat center center; }
-
-.rewiews__item:nth-child(2) {
-  background: url("../../images/reviews-img2.png") no-repeat center center; }
-
-.rewiews__item:nth-child(3) {
-  background: url("../../images/reviews-img3.png") no-repeat center center; }
-
-.rewiews__item:nth-child(4) {
-  background: url("../../images/reviews-img4.png") no-repeat center center; }
-
-.rewiews__item:nth-child(5) {
-  background: url("../../images/reviews-img5.png") no-repeat center center; }
-
-.rewiews__item:nth-child(6) {
-  background: url("../../images/reviews-img6.png") no-repeat center center; }
-
-.rewiews__item:nth-child(7) {
-  background: url("../../images/reviews-img7.png") no-repeat center center; }
-
-.rewiews__item:nth-child(8) {
-  background: url("../../images/reviews-img8.png") no-repeat center center; }
-
-.reviews__name {
-  font: normal 14px/28px "gagalinregular", Arial, sans-serif;
-  margin-bottom: 14px; }
-
-.rewiews__text {
-  font: normal 14px/24px "ubuntulight", Arial, sans-serif;
-  margin-bottom: 12px; }
-
-.rewiews__button {
-  font: normal 13px/30px "ubuntumedium", Arial, sans-serif;
-  padding: 2px 15px;
-  text-transform: uppercase;
-  background-color: #2f3234;
-  border-radius: 4px;
-  border: none;
-  color: #fff; }
-  .rewiews__button:hover {
-    background-color: #fff;
-    color: #2f3234; }
+Backtrace:
+E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss:53
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$black\".\A         on line 53 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss\A \A 48:     margin-bottom: 12px;\A 49: }\A 50: \A 51: .button:hover {\A 52:     background-color: #fff;\A 53:     color: $black;\A 54: }"; }

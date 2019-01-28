@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  overflow: hidden;
+  min-width: 940px;
+  min-height: 100%;
+  width: 100%; }
+
+.container {
+  width: 940px;
+  margin: 0 auto; }
+
+.section {
+  height: 100vh;
+  min-height: 650px; }
+
+.section--centered .title {
+  width: 100%;
+  margin-top: -26px;
+  text-align: center; }
+.section--centered .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+img {
+  vertical-align: bottom; }
+
+/*# sourceMappingURL=layout.css.map */

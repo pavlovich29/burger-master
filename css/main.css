@@ -1,10 +1,338 @@
-@import url("layout/reset.css");
-@import url("layout/fonts.css");
-@import url("layout/base.css");
-@import url("block/header.css");
-@import url("block/navigation.css");
-@import url("block/main-burger.css");
-@import url("block/we-best.css");
-@import url("block/reviews.css");
-.general-bg {
-  background: #1f1f1f url("../../images/main-bg.png") no-repeat center top; }
+/*variables*/
+/*reset default styles*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+table, td, tr, th {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none; }
+
+h1, h2, h3, h4, h5, h6, p, td, th {
+  font-size: 1em;
+  font-weight: normal; }
+
+a:link, a:visited, a:hover, a:active {
+  cursor: pointer;
+  cursor: hand;
+  text-decoration: none; }
+
+:-moz-any-link:focus, input {
+  outline: none; }
+
+a img {
+  border: none; }
+
+ul, li {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none; }
+
+ol, ul {
+  list-style: none; }
+
+input, select, textarea {
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  vertical-align: middle; }
+
+*, *:hover, *:focus, *:active {
+  outline: none; }
+
+/*layout*/
+@font-face {
+  font-family: 'gagalinregular';
+  src: url("../../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'lifehackmedium';
+  src: url("../../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ubuntubold';
+  src: url("../../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ubuntulight';
+  src: url("../../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ubuntumedium';
+  src: url("../../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ubunturegular';
+  src: url("../../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  overflow: hidden;
+  min-width: 940px;
+  min-height: 100%;
+  width: 100%; }
+
+.container {
+  width: 940px;
+  margin: 0 auto; }
+
+.section {
+  height: 100vh;
+  min-height: 650px; }
+
+.section--centered .title {
+  width: 100%;
+  margin-top: -26px;
+  text-align: center; }
+.section--centered .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+img {
+  vertical-align: bottom; }
+
+/*elements*/
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-width: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #e45028;
+  font: normal 13px/15px "ubuntumedium", Arial, sans-serif;
+  color: #fff;
+  cursor: pointer; }
+  .button--black {
+    background-color: #2f3234; }
+
+.button:hover {
+  background-color: #fff; }
+  .button:hover .order__link {
+    color: #e45028; }
+
+.title {
+  font: normal 72px/72px "gagalinregular", Arial, sans-serif;
+  color: #f9b43b;
+  margin-bottom: 27px; }
+
+.title--we-best {
+  color: #2f3234;
+  margin: 127px 0 38px; }
+
+.side-scroll {
+  position: fixed;
+  top: 89px;
+  right: 48px; }
+
+.side-scroll__item {
+  display: block;
+  height: 16px;
+  width: 16px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 5px; }
+  .side-scroll__item:hover {
+    border: 1px solid  #fff; }
+  .side-scroll__item::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #fff; }
+
+/*blocks*/
+.hero {
+  background: url("../../images/main-bg.png") center center/cover no-repeat; }
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative; }
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.73; }
+
+.hero__content-disc {
+  font: normal 65px/60px "lifehackmedium", Arial, sans-serif;
+  color: #fff;
+  letter-spacing: -1.625px; }
+
+.hero__burger-image {
+  margin-left: 19px; }
+
+.hero__content-text {
+  margin-left: 12px;
+  margin-top: 80px; }
+
+.arrow-down {
+  background: url("../images/arrow-scroll.png") no-repeat center center;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 29px;
+  height: 14px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10px; }
+
+.header__button {
+  display: flex;
+  align-items: center; }
+
+.logo {
+  display: inline-block;
+  margin-right: 55px; }
+
+.navigation {
+  align-items: center;
+  display: inline-block; }
+
+.navigation__list {
+  display: flex;
+  align-items: center; }
+
+.navigation__item {
+  display: flex;
+  align-items: center; }
+  .navigation__item::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background-color: #fff; }
+  .navigation__item:first-child::before {
+    display: none; }
+
+.navigation__link {
+  font: normal 13px/15px "ubuntumedium", Arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase; }
+  .navigation__link:hover {
+    color: #e45028; }
+
+.we-best {
+  background: url("../../images/we-best-bg.png") no-repeat center center/cover; }
+
+.we-best__list {
+  display: flex;
+  align-items: baseline; }
+
+.we-best__item {
+  flex: 1;
+  margin-left: 20px;
+  text-align: center; }
+  .we-best__item:first-child {
+    margin-left: 0; }
+
+.we-best__img {
+  display: inline-block;
+  margin-bottom: 35px; }
+
+.we-best__title {
+  font: normal 24px/28px "lifehackmedium", Arial, sans-serif;
+  color: #2f3234;
+  letter-spacing: -0.6px;
+  margin-bottom: 13px; }
+
+.we-best__content {
+  font: normal 14px/24px "ubuntulight", Arial, sans-serif;
+  color: #2f3234; }
+
+.reviews {
+  background-color: #000;
+  position: relative; }
+
+.rewiews__list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.reviews__item {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  background: center center / cover no-repeat;
+  filter: grayscale(100%); }
+  .reviews__item:hover .rewiews__item-hover {
+    opacity: 1; }
+
+.rewiews__item-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 41px 32px 49px 19px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s; }
+
+.reviews__name {
+  font: normal 14px/28px "gagalinregular", Arial, sans-serif;
+  margin-bottom: 14px; }
+
+.rewiews__text {
+  font: normal 14px/24px "ubuntulight", Arial, sans-serif;
+  margin-bottom: 12px; }
+
+.button:hover {
+  background-color: #fff;
+  color: #2f3234; }
+
+/*# sourceMappingURL=main.css.map */

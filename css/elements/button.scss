@@ -1,0 +1,22 @@
+$orange: #e45028;
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-width: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: $orange;
+    font: normal 13px/15px "ubuntumedium", Arial, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    &--black {
+        background-color: #2f3234;
+    }
+}
+
+.button:hover {
+    background-color: #fff;
+    & .order__link {
+        color: $orange;
+    }
+}

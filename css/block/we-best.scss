@@ -1,61 +1,34 @@
 .we-best {
-    background: #fcf6f2 url("../../images/we-best-bg.png") no-repeat center top;
-    /*margin-bottom: 1952px;*/
-}
-
-.we-best__container {
-    padding: 131px 80px 135px;
-}
-
-.we-best__heading {
-    font: normal 72px/64px "gagalinregular", Arial, sans-serif;
-    color: #2f3234;
-    margin-bottom: 50px;
+    background: url("../../images/we-best-bg.png") no-repeat center center / cover;
 }
 
 .we-best__list {
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
 }
 
 .we-best__item {
-    width: 300px;
+    flex: 1;
     margin-left: 20px;
-}
-
-.we-best__item:first-child {
-    margin-left: 0;
+    text-align: center;
+    &:first-child {
+        margin-left: 0;
+    }
 }
 
 .we-best__img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 29px;
+    display: inline-block;
+    margin-bottom: 35px;
 }
 
-.we-best__img--second-block {
-    margin-bottom: 34px;
-}
-
-.we-best__img--third-block {
-    margin-bottom: 42px;
-}
-
-.we-best__heading,
-.we-best__subheading,
-.we-best__text {
-    text-align: center;
-}
-
-.we-best__subheading {
+.we-best__title {
     font: normal 24px/28px "lifehackmedium", Arial, sans-serif;
-    color: #2f3234;
-    margin-bottom: 12px;
+    color: $black;
     letter-spacing: -0.6px;
+    margin-bottom: 13px;
 }
 
-.we-best__text {
+.we-best__content {
     font: normal 14px/24px "ubuntulight", Arial, sans-serif;
-    color: #2f3234;
-    padding-bottom: 15px;
+    color: $black;
 }

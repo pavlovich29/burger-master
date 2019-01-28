@@ -1,46 +1,41 @@
 .reviews {
-    background-color: #c3c3c3;
+    background-color: #000;
+    position: relative;
 }
 
-.reviews__container {
+.rewiews__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-flow: row wrap;
-    flex: 1 1 25%;
-    background-color: #4f4f4f;
+    flex-wrap: wrap;
 }
 
-.rewiews__item {
-    width: 275px;
-    height: 325px;
-    &:hover .rewiews__item-hover {
-        display: block;
-        position: relative;
-        z-index: 10;
-        &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: block;
-            width: 275px;
-            height: 325px;
-            background-color: #706868b2;
-            opacity: 0.7;
-            z-index: -10;
+.reviews__item {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background: center center / cover no-repeat;
+    filter: grayscale(100%);
+    &:hover {
+        .rewiews__item-hover {
+            opacity: 1;
         }
     }
 }
 
 .rewiews__item-hover {
-    display: none;
-    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 41px 32px 49px 19px;
-}
-
-@each $image-block in (1, 2, 3, 4, 5, 6, 7, 8) {
-    .rewiews__item:nth-child(#{$image-block}) {
-        background: url("../../images/reviews-img#{$image-block}.png") no-repeat center center;
-    }
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .reviews__name {
@@ -53,16 +48,7 @@
     margin-bottom: 12px;
 }
 
-.rewiews__button {
-    font: normal 13px/30px "ubuntumedium", Arial, sans-serif;
-    padding: 2px 15px;
-    text-transform: uppercase;
-    background-color: #2f3234;
-    border-radius: 4px;
-    border: none;
-    color: #fff;
-    &:hover {
-        background-color: #fff;
-        color: #2f3234;
-    }
+.button:hover {
+    background-color: #fff;
+    color: $black;
 }
