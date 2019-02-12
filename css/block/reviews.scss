@@ -50,6 +50,9 @@
 .rewiews__text {
     font: normal rem(14px)/rem(24px) "ubuntulight", Arial, sans-serif;
     margin-bottom: rem(12px);
+    @include phones {
+        display: none;
+    }
 }
 
 .button:hover {

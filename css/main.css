@@ -81,32 +81,32 @@ input, select, textarea {
 /*layout*/
 @font-face {
   font-family: 'gagalinregular';
-  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
+  src: url("../../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'lifehackmedium';
-  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
+  src: url("../../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntubold';
-  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
+  src: url("../../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntulight';
-  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
+  src: url("../../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntumedium';
-  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
+  src: url("../../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubunturegular';
-  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
+  src: url("../../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/layout\.scss}line{font-family:\000031}}
@@ -231,6 +231,11 @@ body {
   text-align: center;
   margin-top: 8.125rem;
   margin-bottom: 2.25rem; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/title\.scss}line{font-family:\0000334}}
+    .title--order {
+      font-size: 3.0rem;
+      line-height: 3.5rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/side-scroll\.scss}line{font-family:\000031}}
 .side-scroll {
@@ -281,8 +286,11 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\000038}}
 .socials__item {
   margin-left: 1.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000310}}
+  .socials__item:first-of-type {
+    margin-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000315}}
 .socials__link {
   display: inline-block;
   max-width: 1.4375rem;
@@ -290,11 +298,11 @@ body {
   opacity: 0.3;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000321}}
   .socials__link:hover {
     opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/elements\/socials\.scss}line{font-family:\0000326}}
 .socials__link-icon {
   width: 1.25rem;
   height: 1.25rem; }
@@ -408,8 +416,13 @@ body {
 .hero__content-text {
   float: left;
   width: 50%; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000328}}
+    .hero__content-image,
+    .hero__content-text {
+      width: auto; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000345}}
 .hero__desc {
   text-align: center;
   font-size: 4.0625rem;
@@ -417,7 +430,7 @@ body {
   text-transform: lowercase;
   line-height: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000355}}
 .hero__content-disc {
   font-size: 4.0625rem;
   line-height: 3.75rem;
@@ -426,7 +439,7 @@ body {
   color: #fff;
   letter-spacing: -0.1015625rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000364}}
 .hero__burger-image {
   display: inline-block;
   position: relative;
@@ -436,16 +449,16 @@ body {
   max-width: 100%;
   max-height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000376}}
 .hero__content-text {
   text-align: center;
   margin-top: 5rem; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000376}}
     .hero__content-text {
       margin-top: 0rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/hero\.scss}line{font-family:\0000385}}
 .arrow-down {
   position: absolute;
   bottom: 2.5rem;
@@ -576,24 +589,46 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\000035}}
+    .we-best__list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000313}}
 .we-best__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   margin-left: 1.25rem;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000314}}
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000319}}
   .we-best__item:first-child {
     margin-left: 0; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000313}}
+    .we-best__item {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      text-align: left; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000328}}
 .we-best__img {
   display: inline-block;
   margin-bottom: 2.1875rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000333}}
 .we-best__title {
   font-size: 1.5rem;
   line-height: 1.75rem;
@@ -603,7 +638,7 @@ body {
   letter-spacing: -0.0375rem;
   margin-bottom: 0.8125rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/we-best\.scss}line{font-family:\0000343}}
 .we-best__content {
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -668,15 +703,19 @@ body {
 .rewiews__text {
   font: normal 0.5833333333 "ubuntulight", Arial, sans-serif;
   margin-bottom: 0.75rem; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/reviews\.scss}line{font-family:\0000350}}
+    .rewiews__text {
+      display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/reviews\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/reviews\.scss}line{font-family:\0000358}}
 .button:hover {
   background-color: #fff;
   color: #2f3234; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/team\.scss}line{font-family:\000032}}
 .team {
-  background: url("../images/team-bg.png") center center/cover no-repeat;
+  background: url("../../images/team-bg.png") center center/cover no-repeat;
   position: relative; }
   @media screen and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/team\.scss}line{font-family:\000032}}
@@ -866,7 +905,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\000032}}
 .menu {
-  background: url("../images/menu-bg.png") center center/cover no-repeat;
+  background: url("../../images/menu-bg.png") center center/cover no-repeat;
   position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\000037}}
@@ -874,13 +913,14 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  bottom: 0; }
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000315}}
 .menu-accordion__item {
-  height: 100%;
-  max-width: 38.75rem;
-  float: left; }
+  height: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000320}}
 .menu-accordion__tab {
@@ -892,23 +932,27 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000320}}
+    .menu-accordion__tab {
+      width: 2rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000334}}
 .menu-accordion__tab--bg-1 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(56, 60, 62, 0.93)), to(rgba(56, 60, 62, 0.93))), url("/images/for-meateat.png");
   background-image: linear-gradient(to top, rgba(56, 60, 62, 0.93), rgba(56, 60, 62, 0.93)), url("/images/for-meateat.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000338}}
 .menu-accordion__tab--bg-2 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(56, 60, 62, 0.93)), to(rgba(56, 60, 62, 0.93))), url("/images/for-vegetarians.png");
   background-image: linear-gradient(to top, rgba(56, 60, 62, 0.93), rgba(56, 60, 62, 0.93)), url("/images/for-vegetarians.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000342}}
 .menu-accordion__tab--bg-3 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(56, 60, 62, 0.93)), to(rgba(56, 60, 62, 0.93))), url("/images/for-diet.png");
   background-image: linear-gradient(to top, rgba(56, 60, 62, 0.93), rgba(56, 60, 62, 0.93)), url("/images/for-diet.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000346}}
 .menu-accordion__tab-title {
   font-size: 2.5rem;
   font-family: "gagalinregular";
@@ -923,15 +967,19 @@ body {
   left: 50%;
   top: 100%;
   margin-top: -1.25rem; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000346}}
+    .menu-accordion__tab-title {
+      font-size: 1.5rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000363}}
 .menu-accordion__content {
   height: 100%;
   background: rgba(56, 60, 62, 0.93);
   width: 0;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000370}}
 .menu-accordion__text {
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -941,10 +989,14 @@ body {
   padding: 3.5625rem 2.1875rem 2.1875rem 7.1875rem;
   width: 100%;
   display: none; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\0000370}}
+    .menu-accordion__text {
+      padding: 2.5625rem 1.1875rem 1.1875rem 4.1875rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/order\.scss}line{font-family:\000032}}
 .order {
-  background: url("../images/order-bg.png") center center/cover no-repeat;
+  background: url("../../images/order-bg.png") center center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1122,7 +1174,7 @@ body {
   background: transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/order\.scss}line{font-family:\00003155}}
 .order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after {
-  background: url("../image/sprite/check.svg") 50% no-repeat transparent;
+  background: url("../../img/icons/check.svg") 50% no-repeat transparent;
   background-size: contain;
   width: 0.6875rem;
   height: 0.5625rem; }
@@ -1142,7 +1194,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/map\.scss}line{font-family:\000031}}
 .map {
-  background: url("../images/map.png") center bottom no-repeat;
+  background: url("../../images/map.png") center bottom no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -1167,22 +1219,30 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000310}}
+    .footer__container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000320}}
 .footer__col {
   width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000325}}
 .footer__address {
   color: #ffffff;
   font-size: 0.875rem;
   margin-bottom: 0.25rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000331}}
 .footer__phone {
   color: #e45028; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000335}}
 .footer__col_right {
   text-align: right;
   margin-bottom: 0;
@@ -1192,5 +1252,11 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/footer\.scss}line{font-family:\0000335}}
+    .footer__col_right {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 /*# sourceMappingURL=main.css.map */

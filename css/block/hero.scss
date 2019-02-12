@@ -29,10 +29,9 @@
 .hero__content-text {
   float: left;
   width: 50%;
-//   @include tablets() {
-//     float: none;
-//     width: auto;
-//   }
+  @include phones {
+    width: auto;
+  }
 }
 
 

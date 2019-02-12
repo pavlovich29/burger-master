@@ -7,8 +7,11 @@
   
   .socials__item {
     margin-left: rem(20px);
+    &:first-of-type {
+      margin-left: 0;
+    }
   }
-  
+
   .socials__link {
     display: inline-block;
     max-width: rem(23px);

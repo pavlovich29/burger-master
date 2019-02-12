@@ -35,5 +35,9 @@ $black: #2f3234;
     text-align: center;
     margin-top: rem(130px);
     margin-bottom: rem(36px);
+@include phones {
+    font-size: 3.0rem;
+    line-height: 3.5rem;
+}
 }
 

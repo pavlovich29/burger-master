@@ -5,15 +5,24 @@
 .we-best__list {
     display: flex;
     align-items: baseline;
+    @include phones {
+        flex-direction: column;
+      }
 }
 
 .we-best__item {
+    display: flex;
     flex: 1;
     margin-left: rem(20px);
     text-align: center;
+    flex-direction: column;
     &:first-child {
         margin-left: 0;
     }
+    @include phones {
+        flex-direction: row;
+        text-align: left;
+      }
 }
 
 .we-best__img {

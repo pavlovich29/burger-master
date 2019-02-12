@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$black".
-        on line 29 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss
+Error: Undefined mixin 'phones'.
+        on line 8 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss, in `phones'
+        from line 8 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss
 
-24: .we-best__title {
-25:     font-size: rem(24px);
-26:     line-height: rem(28px);
-27:     font-style: normal;
-28:     font-family: "lifehackmedium", Arial, sans-serif;
-29:     color: $black;
-30:     letter-spacing: rem(-0.6px);
-31:     margin-bottom: rem(13px);
-32: }
-33: 
-34: .we-best__content {
+3: }
+4: 
+5: .we-best__list {
+6:     display: flex;
+7:     align-items: baseline;
+8:     @include phones {
+9:         flex-direction: column;
+10:       }
+11: }
+12: 
+13: .we-best__item {
 
 Backtrace:
-E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss:29
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss:8:in `phones'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss:8
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 29 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss\A \A 24: .we-best__title {\A 25:     font-size: rem(24px);\A 26:     line-height: rem(28px);\A 27:     font-style: normal;\A 28:     font-family: \"lifehackmedium\", Arial, sans-serif;\A 29:     color: $black;\A 30:     letter-spacing: rem(-0.6px);\A 31:     margin-bottom: rem(13px);\A 32: }\A 33: \A 34: .we-best__content {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 8 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss, in `phones'\A         from line 8 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\we-best.scss\A \A 3: }\A 4: \A 5: .we-best__list {\A 6:     display: flex;\A 7:     align-items: baseline;\A 8:     @include phones {\A 9:         flex-direction: column;\A 10:       }\A 11: }\A 12: \A 13: .we-best__item {"; }
