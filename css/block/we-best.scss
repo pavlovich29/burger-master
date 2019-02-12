@@ -9,7 +9,7 @@
 
 .we-best__item {
     flex: 1;
-    margin-left: 20px;
+    margin-left: rem(20px);
     text-align: center;
     &:first-child {
         margin-left: 0;
@@ -18,17 +18,23 @@
 
 .we-best__img {
     display: inline-block;
-    margin-bottom: 35px;
+    margin-bottom: rem(35px);
 }
 
 .we-best__title {
-    font: normal 24px/28px "lifehackmedium", Arial, sans-serif;
+    font-size: rem(24px);
+    line-height: rem(28px);
+    font-style: normal;
+    font-family: "lifehackmedium", Arial, sans-serif;
     color: $black;
-    letter-spacing: -0.6px;
-    margin-bottom: 13px;
+    letter-spacing: rem(-0.6px);
+    margin-bottom: rem(13px);
 }
 
 .we-best__content {
-    font: normal 14px/24px "ubuntulight", Arial, sans-serif;
+    font-size: rem(14px);
+    line-height: rem(24px);
+    font-style: normal;
+    font-family: "ubuntulight", Arial, sans-serif;
     color: $black;
 }

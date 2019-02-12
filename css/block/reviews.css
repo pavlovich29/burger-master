@@ -1,20 +1,28 @@
 /*
-Error: Undefined variable: "$black".
-        on line 53 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss
+Error: Undefined mixin 'tablets'.
+        on line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss, in `tablets'
+        from line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss
 
-48:     margin-bottom: 12px;
-49: }
-50: 
-51: .button:hover {
-52:     background-color: #fff;
-53:     color: $black;
-54: }
+22:     &:hover {
+23:         .rewiews__item-hover {
+24:             opacity: 1;
+25:         }
+26:     }
+27:     @include tablets {
+28:         width: 50%;
+29:     height: 25%;
+30:     }
+31: }
+32: 
 
 Backtrace:
-E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss:53
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss:27:in `tablets'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss:27
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -58,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 53 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\block\reviews.scss\A \A 48:     margin-bottom: 12px;\A 49: }\A 50: \A 51: .button:hover {\A 52:     background-color: #fff;\A 53:     color: $black;\A 54: }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss, in `tablets'\A         from line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\block\reviews.scss\A \A 22:     &:hover {\A 23:         .rewiews__item-hover {\A 24:             opacity: 1;\A 25:         }\A 26:     }\A 27:     @include tablets {\A 28:         width: 50%;\A 29:     height: 25%;\A 30:     }\A 31: }\A 32: "; }

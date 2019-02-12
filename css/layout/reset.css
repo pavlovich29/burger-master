@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\000031}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,42 +17,52 @@ time, mark, audio, video {
   border: 0; }
 
 /* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000320}}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000325}}
 body {
   line-height: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000329}}
 table, td, tr, th {
   border-collapse: collapse;
   border-spacing: 0;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000335}}
 h1, h2, h3, h4, h5, h6, p, td, th {
   font-size: 1em;
   font-weight: normal; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000340}}
 a:link, a:visited, a:hover, a:active {
   cursor: pointer;
   cursor: hand;
   text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000346}}
 :-moz-any-link:focus, input {
   outline: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000348}}
 a img {
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000350}}
 ul, li {
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000357}}
 ol, ul {
   list-style: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000361}}
 input, select, textarea {
   font-size-adjust: none;
   font-stretch: normal;
@@ -61,5 +72,8 @@ input, select, textarea {
   line-height: normal;
   vertical-align: middle; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/reset\.scss}line{font-family:\0000371}}
 *, *:hover, *:focus, *:active {
   outline: none; }
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,21 +1,28 @@
 /*
-Error: Undefined variable: "$yellow".
-        on line 3 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss
+Error: Undefined mixin 'tablets'.
+        on line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss, in `tablets'
+        from line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss
 
-1: .title {
-2:     font: normal 72px/72px "gagalinregular", Arial, sans-serif;
-3:     color: $yellow;
-4:     margin-bottom: 27px;
-5: }
-6: 
-7: .title--we-best {
-8:     color: $black;
+22: 	left: 10%;
+23: }
+24: 
+25: .team__title {
+26:     margin-bottom: rem(34px);
+27:     @include tablets {
+28:         font-size: rem(81px);
+29:         margin-bottom: rem(56px);
+30:     }
+31: 
+32: }
 
 Backtrace:
-E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss:3
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss:27:in `tablets'
+E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss:27
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -59,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$yellow\".\A         on line 3 of E:\HTML and CSS\[LoftSchool]\[LoftSchool] 2. Web-разработка для начинающих\Мой сайт\css\elements\title.scss\A \A 1: .title {\A 2:     font: normal 72px/72px \"gagalinregular\", Arial, sans-serif;\A 3:     color: $yellow;\A 4:     margin-bottom: 27px;\A 5: }\A 6: \A 7: .title--we-best {\A 8:     color: $black;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss, in `tablets'\A         from line 27 of E:\HTML and CSS\MY BASE DATES\Партфолио\Мой сайт\css\elements\title.scss\A \A 22: 	left: 10%;\A 23: }\A 24: \A 25: .team__title {\A 26:     margin-bottom: rem(34px);\A 27:     @include tablets {\A 28:         font-size: rem(81px);\A 29:         margin-bottom: rem(56px);\A 30:     }\A 31: \A 32: }"; }

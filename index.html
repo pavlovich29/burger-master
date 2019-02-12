@@ -19,14 +19,17 @@
                     <!--header-->
                     <header class="header">
                         <a class="logo">
-                            <img class="logo__pic" src="images/logo.png" alt="Logo">
+                            <svg width="98.265px" height="74.317px" viewBox="0 0 98.265 74.317"
+                                enable-background="new 0 0 98.265 74.317" xml:space="preserve">
+                                <use xlink:href="/images/sprite/sprite.svg#logo">
+                            </svg>
                         </a>
                         <div class="header__button">
                             <!--nav-->
                             <nav class="navigation">
                                 <ul class="navigation__list">
                                     <li class="navigation__item">
-                                        <a href="" class="navigation__link">О нас</a>
+                                        <a href="#" class="navigation__link">О нас</a>
                                     </li>
                                     <!--
                         -->
@@ -62,19 +65,37 @@
                             </nav>
                             <!--end nav-->
                         </div>
-                        <button class="button hero__button">Заказать</button>
-                    </header>
-                    <!-- end header-->
-                    <div class="hero__content">
-                        <div class="hero__content-image">
-                            <img class="hero__burger-image" src="images/main-burgers.png" alt="Картинка бургера">
+                        <div class="header__links">
+                            <button class="button hero__button">Заказать</button>
+                            <a class="hamburger-menu-link" href="#">
+                                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+                                    onclick="this.classList.toggle('active')">
+                                    <path class="line top"
+                                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                                    <path class="line middle" d="m 30,50 h 40" />
+                                    <path class="line bottom"
+                                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                                </svg>
+                            </a>
                         </div>
-                        <div class="hero__content-text">
-                            <h1 class="title">мы делаем</h1>
-                            <div class="hero__content-disc">натуральные бургеры</div>
+                        </header>
+                        <!-- end header-->
+
+                        <div class="hero__content">
+                            <div class="hero__content-image">
+                                <img class="hero__burger-image" src="images/main-burgers.png" alt="Картинка бургера">
+                            </div>
+                            <div class="hero__content-text">
+                                <h1 class="title">мы делаем</h1>
+                                <div class="hero__content-disc">натуральные бургеры</div>
+                            </div>
                         </div>
-                    </div>
-                    <a href="#" class="arrow-down">&nbsp</a>
+                        <a href="#" class="arrow-down">
+                            <svg width="28.685px" height="14.479px" viewBox="0 0 28.685 14.479"
+                                enable-background="new 0 0 98.265 74.317" xml:space="preserve">
+                                <use xlink:href="/images/sprite/sprite.svg#arrow-scroll">
+                            </svg>
+                        </a>
                 </div>
             </section>
             <!--end section "hero"-->
@@ -85,7 +106,10 @@
                     <ul class="we-best__list">
                         <li class="we-best__item">
                             <div class="we-best__img">
-                                <img src="images/meet-icon.png" alt="Meet icon" class="we-best__pic">
+                                <svg width="96.428px" height="89.246px" viewBox="0 0 96.428 89.246"
+                                    enable-background="new 0 0 96.428 89.246" xml:space="preserve">
+                                    <use xlink:href="/images/sprite/sprite.svg#meat">
+                                </svg>
                             </div>
                             <div class="we-best__dics">
                                 <div class="we-best__title">100% свежее мясо</div>
@@ -98,7 +122,10 @@
                         </li>
                         <li class="we-best__item">
                             <div class="we-best__img we-best__img--second-block ">
-                                <img src="images/hand-icon.png" alt="Hand Made icon" class="we-best__pic">
+                                <svg width="73px" height="85.875px" viewBox="0 0 73 85.875"
+                                    enable-background="new 0 0 73 85.875" xml:space="preserve">
+                                    <use xlink:href="/images/sprite/sprite.svg#hand">
+                                </svg>
                             </div>
                             <div class="we-best__dics">
                                 <div class="we-best__title">Ручная сборка</div>
@@ -112,7 +139,10 @@
                         </li>
                         <li class="we-best__item">
                             <div class="we-best__img we-best__img--third-block">
-                                <img src="images/natural-icon.png" alt="Nature icon" class="we-best__pic">
+                                <svg width="88px" height="75.534px" viewBox="0 0 88 75.534"
+                                    enable-background="new 0 0 88 75.534" xml:space="preserve">
+                                    <use xlink:href="/images/sprite/sprite.svg#natural">
+                                </svg>
                             </div>
                             <div class="we-best__dics">
                                 <div class="we-best__title">Натуральные ингредиенты</div>
@@ -253,6 +283,259 @@
             </ul>
         </div>
         <!--end side-scroll-->
+        <!--section "team"-->
+        <section class="section team">
+            <div class="team__background">
+                <div class="team__content">
+                    <h2 class="title team__title">команда</h2>
+                    <div class="team__accordion">
+                        <div class="team__accordion-member">
+                            <div class="team__accordion-name">Дэниэл Редклиф</div>
+                            <div class="team__accordion-disc"></div>
+                        </div>
+                        <div class="team__accordion-member team__accordion-member--active">
+                            <div class="team__accordion-name">Ричард Джеймс</div>
+                            <div class="team__accordion-disc">
+                                <div class="team__accordion-avatar">
+                                    <img src="images/team-member.png" alt="Фото участника нашей команды"
+                                        class="team__accordion-pic">
+                                </div>
+                                <div class="team__accordion-summary">
+                                    <h5 class="team__accordion-specialty">Оператор</h5>
+                                    <p class="team__accordion-duties">С радостью поможет подобрать идеальный бургер и
+                                        оформить заказ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__accordion-member">
+                            <div class="team__accordion-name">Джейк Финн</div>
+                            <div class="team__accordion-disc"></div>
+                        </div>
+                        <div class="team__accordion-member">
+                            <div class="team__accordion-name">Николай Иванов</div>
+                            <div class="team__accordion-disc"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end section "team"-->
+        <!--section "menu"-->
+        <section class="section menu">
+            <div class="title title--menu">Меню</div>
+            <ul class="menu-accordion">
+                <li class="menu-accordion__item">
+                    <a class="menu-accordion__tab menu-accordion__tab--bg-1" href="#">
+                        <div class="menu-accordion__tab-title">Для мясоедов</div>
+                    </a>
+                    <div class="menu-accordion__content">
+                        <div class="menu-accordion__text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                            конструктивный механизм сочленений.
+                            Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко
+                            относиться к слову,
+                            однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает
+                            И.Гальперин, пространственно
+                            выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему,
+                            заимствование редуцирует
+                            конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман.
+                            Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-accordion__item">
+                    <a class="menu-accordion__tab menu-accordion__tab--bg-2" href="#">
+                        <div class="menu-accordion__tab-title">Вегетарианское</div>
+                    </a>
+                    <div class="menu-accordion__content">
+                        <div class="menu-accordion__text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                            конструктивный механизм сочленений.
+                            Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко
+                            относиться к слову,
+                            однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает
+                            И.Гальперин, пространственно
+                            выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему,
+                            заимствование редуцирует
+                            конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман.
+                            Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-accordion__item">
+                    <a class="menu-accordion__tab menu-accordion__tab--bg-3" href="#">
+                        <div class="menu-accordion__tab-title">Диетическое</div>
+                    </a>
+                    <div class="menu-accordion__content">
+                        <div class="menu-accordion__text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                            конструктивный механизм сочленений.
+                            Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко
+                            относиться к слову,
+                            однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает
+                            И.Гальперин, пространственно
+                            выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему,
+                            заимствование редуцирует
+                            конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман.
+                            Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--end section "menu"-->
+        <!--section "order"-->
+        <section class="section order">
+            <div class="container">
+                <div class="title title--order">Закажите доставку</div>
+                <form class="order__form-main">
+                    <div class="order__form">
+                        <!--srart column 1-->
+                        <div class="order__form-col order__form-col--first">
+                            <div class="order__form-row">
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Имя</div>
+                                    <input class="order__form-input" name="name" type="text" placeholder="">
+                                </label>
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Телефон</div>
+                                    <input class="order__form-input phone-mask" name="phone" type="text" placeholder="">
+                                </label>
+                            </div>
+                            <div class="order__form-row">
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Улица</div>
+                                    <input class="order__form-input" name="street" type="text" placeholder="">
+                                </label>
+                            </div>
+                            <div class="order__form-row">
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Дом</div>
+                                    <input class="order__form-input" name="home" type="text" placeholder="">
+                                </label>
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Корпус</div>
+                                    <input class="order__form-input" name="part" type="text" placeholder="">
+                                </label>
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Квартира</div>
+                                    <input class="order__form-input" name="appt" type="text" placeholder="">
+                                </label>
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Этаж</div>
+                                    <input class="order__form-input" name="floor" type="text" placeholder="">
+                                </label>
+                            </div>
+                        </div>
+                        <!--end column 1-->
+                        <!--srart column 2-->
+                        <div class="order__form-col order__form-col--second">
+                            <div class="order__form-row">
+                                <label class="order__form-block">
+                                    <div class="order__form-label">Комментарий</div>
+                                    <textarea class="order__form-input order__form-input_textarea"
+                                        name="comment"></textarea>
+                                </label>
+                            </div>
+                            <!--srart column 2: buttons-->
+                            <div class="order__form-buttons">
+                                <div class="order__form-row">
+                                    <label class="order__radio">
+                                        <input class="order__radio-elem" name="payment" type="radio">
+                                        <div class="order__radio-fake">&nbsp;</div>
+                                        <div class="order__radio-title">Потребуется сдача</div>
+                                    </label>
+                                    <label class="order__radio">
+                                        <input class="order__radio-elem" name="payment" type="radio">
+                                        <div class="order__radio-fake">&nbsp;</div>
+                                        <div class="order__radio-title">Оплата по карте</div>
+                                    </label>
+                                </div>
+                                <div class="order__form-row">
+                                    <label class="order__radio order__radio_checkbox">
+                                        <input class="order__radio-elem" name="callback" type="checkbox">
+                                        <div class="order__radio-fake">&nbsp;</div>
+                                        <div class="order__radio-title">Не перезванивать</div>
+                                    </label>
+                                </div>
+                                <div class="order__form-row">
+                                    <input class="button" name="" type="submit" value="Заказать">
+                                    <input class="button order__form-button_reset" name="" type="reset"
+                                        value="Очистить">
+                                </div>
+                            </div>
+                            <!--end column 2: buttons-->
+                        </div>
+                        <!--end column 2-->
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--end section "order"-->
+        <!--section "map"-->
+        <section class="section map">
+            <!-- <div class="yandex-map">
+                <img src="/images/map.png" alt="Map">
+            </div> -->
+            <!--footer-->
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer__col">
+                        <div class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</div>
+                        <a class="footer__phone" href="tel:+78123771377">
+                            <svg width="11px" height="11px" viewBox="0 0 11 11" enable-background="new 0 0 11 11"
+                                xml:space="preserve">
+                                <use xlink:href="/images/sprite/sprite.svg#phone"></use>
+                            </svg>
+                            +7 (812) 377-13-77</a>
+                    </div>
+                    <div class="footer__col footer__col_right">
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg class="socials__link-icon" width="126px" height="72px" viewBox="0 0 126 72"
+                                        enable-background="new 0 0 126 72" xml:space="preserve">
+                                        <use xlink:href="/images/sprite/sprite.svg#vk"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg class="socials__link-icon" width="36.711px" height="36.711px"
+                                        viewBox="0 0 36.711 36.711" enable-background="new 0 0 36.711 36.711"
+                                        xml:space="preserve">
+                                        <use xlink:href="/images/sprite/sprite.svg#fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg class="socials__link-icon" width="36.663px" height="36.664px"
+                                        viewBox="0 0 36.663 36.664" enable-background="new 0 0 36.663 36.664"
+                                        xml:space="preserve">
+                                        <use xlink:href="/images/sprite/sprite.svg#inst"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg class="socials__link-icon" width="37.453px" height="31.21px"
+                                        viewBox="0 0 37.453 31.21" enable-background="new 0 0 37.453 31.21"
+                                        xml:space="preserve">>
+                                        <use xlink:href="/images/sprite/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!--end footer-->
+        </section>
+        <!--end section "map"-->
     </div>
 </body>
 

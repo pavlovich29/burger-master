@@ -1,0 +1,36 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: rem(10px) 0;
+    background-color: #0f0f0f;
+  }
+  
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer__col {
+    width: 50%;
+    // margin-bottom: rem(15px);
+  }
+  
+  .footer__address {
+    color: #ffffff;
+    font-size: rem(14px);
+    margin-bottom: rem(4px);
+  }
+  
+  .footer__phone {
+    color: $red;
+  }
+  
+  .footer__col_right {
+    text-align: right;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+  }

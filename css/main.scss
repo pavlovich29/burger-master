@@ -3,17 +3,36 @@ $orange: #e45028;
 $yellow: #f9b43b;
 $black: #2f3234;
 
+$tablets: 768px;
+$phones: 480px;
+
+@mixin tablets() {
+    @media screen and (max-width: $tablets) {
+        @content;
+    }
+}
+
+@mixin phones() {
+    @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+
 /*reset default styles*/
 @import "layout/reset.scss";
 
 /*layout*/
 @import "layout/fonts.scss";
+@import "layout/media.scss";
 @import "layout/layout.scss";
+
 
 /*elements*/
 @import "elements/button.scss";
 @import "elements/title.scss";
 @import "elements/side-scroll.scss";
+@import "elements/socials.scss";
+@import "elements/hamburger-menu-link.scss";
 
 /*blocks*/
 @import "block/hero.scss";
@@ -21,3 +40,8 @@ $black: #2f3234;
 @import "block/navigation.scss";
 @import "block/we-best.scss";
 @import "block/reviews.scss";
+@import "block/team.scss";
+@import "block/menu.scss";
+@import "block/order.scss";
+@import "block/map.scss";
+@import "block/footer.scss";

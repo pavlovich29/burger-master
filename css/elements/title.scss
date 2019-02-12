@@ -1,10 +1,39 @@
+$yellow: #f9b43b;
+$black: #2f3234;
 .title {
-    font: normal 72px/72px "gagalinregular", Arial, sans-serif;
+    text-align: center;
+    font-size: rem(72px);
+    line-height: rem(72px);
+    font-style: normal;
+    font-family: "gagalinregular", Arial, sans-serif;
     color: $yellow;
-    margin-bottom: 27px;
+    margin: rem(26px) 0;
 }
 
 .title--we-best {
     color: $black;
-    margin: 127px 0 38px;
+    margin: rem(127px) 0 rem(38px);
 }
+
+.title--menu {
+    color: #fff;
+    position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.team__title {
+    margin-bottom: rem(34px);
+    @include tablets {
+        font-size: rem(81px);
+        margin-bottom: rem(56px);
+    }
+
+}
+
+.title--order {
+    text-align: center;
+    margin-top: rem(130px);
+    margin-bottom: rem(36px);
+}
+

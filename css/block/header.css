@@ -1,16 +1,44 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/header\.scss}line{font-family:\000031}}
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  padding-top: 10px; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: rem(10px); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/header\.scss}line{font-family:\000039}}
 .header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  text-align: right;
+  margin-right: rem(18px); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/header\.scss}line{font-family:\0000318}}
 .logo {
   display: inline-block;
-  margin-right: 55px; }
+  position: relative;
+  z-index: 110; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/header\.scss}line{font-family:\0000324}}
+  .logo svg {
+    max-width: 95%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/header\.scss}line{font-family:\0000329}}
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 /*# sourceMappingURL=header.css.map */

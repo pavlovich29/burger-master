@@ -1,16 +1,21 @@
-$orange: #e45028;
+// $orange: #e45028;
 .button {
     display: inline-block;
-    padding: 10px 15px;
+    padding: rem(10px) rem(15px);
     border-width: 0;
-    border-radius: 4px;
+    border-radius: rem(4px);
     text-transform: uppercase;
     background-color: $orange;
-    font: normal 13px/15px "ubuntumedium", Arial, sans-serif;
+    text-align: center;
+    font-size: rem(13px);
+    line-height: rem(15px);
+    font-style: normal;
+    font-family: "ubuntumedium", Arial, sans-serif;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.8s;
     &--black {
-        background-color: #2f3234;
+        background-color: $black;
     }
 }
 

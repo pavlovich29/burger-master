@@ -1,42 +1,96 @@
 .hero {
     background: url("../images/main-bg.png") center center / cover no-repeat;
+    position: relative;
 }
 
 .hero__container {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    position: relative;
+    // height: 100%;
+    // position: relative;
+    
+  flex: 1;
+  padding-bottom: 15%;
+  justify-content: center;
 }
 
 .hero__content {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 0.73;
+    // flex: 0.73;
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.hero__content-image,
+.hero__content-text {
+  float: left;
+  width: 50%;
+//   @include tablets() {
+//     float: none;
+//     width: auto;
+//   }
+}
+
+
+// .hero__content-text {
+//   padding-top: rem(115px);
+// //   @include tablets() {
+// //     padding-top: 0;
+// //   }
+// }
+
+.hero__desc {
+  text-align: center;
+  font-size: rem(65px);
+  color: white;
+//   @include lifehack;
+  text-transform: lowercase;
+  line-height: 1em;
+
 }
 
 .hero__content-disc {
-    font: normal 65px/60px "lifehackmedium", Arial, sans-serif;
+    font-size: rem(65px);
+    line-height: rem(60px);
+    font-style: normal;
+    font-family: "lifehackmedium", Arial, sans-serif;
     color: #fff;
-    letter-spacing: -1.625px;
+    letter-spacing: rem(-1.625px);
 }
 
 .hero__burger-image {
-    margin-left: 19px;
+    // margin-left: rem(19px);
+    display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  max-height: 100%;
+    // max-width: 100%;
+    // max-height: 100%;
 }
 
 .hero__content-text {
-    margin-left: 12px;
-    margin-top: 80px;
+  text-align: center;
+    // margin-left: rem(12px);
+    margin-top: rem(80px);
+    @include tablets {
+      margin-top: rem(0px);
+  }
 }
 
 .arrow-down {
-    background: url("../images/arrow-scroll.png") no-repeat center center;
     position: absolute;
-    bottom: 40px;
+    bottom: rem(40px);
     left: 50%;
     transform: translate(-50%);
-    width: 29px;
-    height: 14px;
+    width: rem(29px);
+    height: rem(14px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
