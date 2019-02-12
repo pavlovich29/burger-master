@@ -81,32 +81,32 @@ input, select, textarea {
 /*layout*/
 @font-face {
   font-family: 'gagalinregular';
-  src: url("../../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
+  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("gagalin-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'lifehackmedium';
-  src: url("../../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
+  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("lifehack_medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntubold';
-  src: url("../../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("ubuntu-b-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntulight';
-  src: url("../../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("ubuntu-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubuntumedium';
-  src: url("../../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("ubuntu-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'ubunturegular';
-  src: url("../../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("ubuntu-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/layout\/layout\.scss}line{font-family:\000031}}
@@ -676,7 +676,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/team\.scss}line{font-family:\000032}}
 .team {
-  background: url("../../images/team-bg.png") center center/cover no-repeat;
+  background: url("../images/team-bg.png") center center/cover no-repeat;
   position: relative; }
   @media screen and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/team\.scss}line{font-family:\000032}}
@@ -866,7 +866,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\000032}}
 .menu {
-  background: url("../../images/menu-bg.png") center center/cover no-repeat;
+  background: url("../images/menu-bg.png") center center/cover no-repeat;
   position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/menu\.scss}line{font-family:\000037}}
@@ -944,7 +944,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/order\.scss}line{font-family:\000032}}
 .order {
-  background: url("../../images/order-bg.png") center center/cover no-repeat;
+  background: url("../images/order-bg.png") center center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1122,7 +1122,7 @@ body {
   background: transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/order\.scss}line{font-family:\00003155}}
 .order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after {
-  background: url("../../img/icons/check.svg") 50% no-repeat transparent;
+  background: url("../image/sprite/check.svg") 50% no-repeat transparent;
   background-size: contain;
   width: 0.6875rem;
   height: 0.5625rem; }
@@ -1142,7 +1142,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/HTML\%20and\%20CSS\/MY\%20BASE\%20DATES\/\%D0\%9F\%D0\%B0\%D1\%80\%D1\%82\%D1\%84\%D0\%BE\%D0\%BB\%D0\%B8\%D0\%BE\/\%D0\%9C\%D0\%BE\%D0\%B9\%20\%D1\%81\%D0\%B0\%D0\%B9\%D1\%82\/css\/block\/map\.scss}line{font-family:\000031}}
 .map {
-  background: url("../../images/map.png") center bottom no-repeat;
+  background: url("../images/map.png") center bottom no-repeat;
   background-size: cover;
   position: relative; }
 
